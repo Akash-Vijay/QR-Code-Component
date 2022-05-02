@@ -1,22 +1,37 @@
 body {
-  background-color: #c1f0f0;
+  background-color: #e6e6ff;
 }
 
 .card {
   border-radius: 9px;
   background-color: #ffffff;
   margin:auto;
-  margin-top: 10%;
-  width:250px;
+  margin-top: 8%;
+  width:232px;
   height:70%;
   padding: 10px;
+  box-shadow: 2px 5px 5px grey;
 }
+
+.qr-code {
+  width: 200px;
+} 
 
 img {
   width: 230px;
   height: 40%;
+  border-radius: 9px;
 }
 
 .text {
-  width:90%;
+  width:97%;
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+  font-size: 17px;
+}
+
+
+p {
+  color: #a6a6a6;
+  font-size: 15px;
 }
